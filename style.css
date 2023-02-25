@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(237, 226, 226);
+    font-family: 'Square Peg', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif;
+color:black;
+}
+header div .u {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    list-style: none;
+    font-weight: 600
+    
+}
+.u1{
+    margin: 20px 100px;
+}
+.u2{
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    float: right;
+    list-style: none;
+    gap: 30px;
+    margin: 10px;
+    padding: 0px;
+    margin-right: 10px;
+}
+section main{
+    
+    display: flex;
+    align-items: start;
+    justify-content:start ;
+    gap: 30px;
+    margin-left: 100px;
+}
+.image{
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    float: right;
+    margin-left: 40px;
+}
+.mid{
+    background-image: url(./image/stethoscope.png);
+    background-repeat: no-repeat;
+    background-size: 660px;
+    margin-top: 40px;
+    width: 66.5%;
+    height: 60%;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+}
+p{
+    font-size: 1rem;
+    line-height: 25px;
+
+}
+.m2{
+    padding: 20px;
+}
+.appointment{
+    padding: 0px;
+    display: flex;
+    align-items: start;
+    justify-content: stretch;
+    
+    
+}
+button{
+    background-color: rgb(115, 215, 115);
+    color: aliceblue;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 280px;
+}
+.i{
+    
+    height: 300px;
+}
+.do{
+    margin-left: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.w{
+    height: 30px;
+
+}
+.s{
+    height: 18px;
+    margin-top: 35px;
+    
+}
+.green{
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.yellow{
+    height: 313px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
+.doc{
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+    
+}
+.p1{
+   list-style: none;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-radius: 11px;
+    height: 340px;
+    width: 360px;
+    border: solid snow;
+}
+.u4{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 150px;
+
+}
+.btn button:hover{
+    cursor: pointer;
+    background-color: red;
+    font-weight: 900;
+}
+.uy:hover
+{
+    cursor: pointer;
+    background-color: red;
+    font-weight: 900;
+}
+.wen{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+    margin-top: 220px;
+}
+.wen h1{
+    color: rgb(115, 215, 115);
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 30px;
+}
+.last div{
+    border: solid snow;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
